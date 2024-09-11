@@ -60,7 +60,7 @@ class MovieCard extends StatelessWidget {
                       Text(
                         title,
                         style: Theme.of(context).textTheme.titleSmall!.copyWith(
-                              color: AppTheme.white,
+                              color: AppTheme.primary,
                               fontWeight: FontWeight.bold,
                             ),
                       ),

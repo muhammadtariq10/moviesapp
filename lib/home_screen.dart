@@ -6,7 +6,7 @@ import 'package:movies/bottomnavigationbar/watch_list_tap.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
-  static const String routeName = 'home';
+  static const String routeName = '/';
 
   @override
   State<HomeScreen> createState() => _HomeScreenState();

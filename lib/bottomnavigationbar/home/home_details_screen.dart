@@ -2,9 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:movies/app_theme.dart';
 import 'package:movies/shared/movie_card.dart';
 
-class HomeDatilsScreen extends StatelessWidget {
-  const HomeDatilsScreen({super.key});
-  static const String routeName = '/';
+class HomeDetailsScreen extends StatelessWidget {
+  const HomeDetailsScreen({super.key});
+  static const String routeName = 'homedetailsscreen';
 
   @override
   Widget build(BuildContext context) {
@@ -59,7 +59,7 @@ class HomeDatilsScreen extends StatelessWidget {
                                   .titleSmall!
                                   .copyWith(
                                     fontWeight: FontWeight.bold,
-                                    color: AppTheme.white,
+                                    color: AppTheme.primary,
                                   ),
                             ),
                             onPressed: () {},

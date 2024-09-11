@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:movies/app_theme.dart';
-import 'package:movies/bottomnavigationbar/home/home_datils_screen.dart';
+import 'package:movies/bottomnavigationbar/home/home_details_screen.dart';
 import 'package:movies/home_screen.dart';
 
 void main() {
@@ -16,7 +16,7 @@ class MoviesApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       routes: {
         HomeScreen.routeName: (_) => const HomeScreen(),
-        HomeDatilsScreen.routeName: (_) => const HomeDatilsScreen(),
+        HomeDetailsScreen.routeName: (_) => const HomeDetailsScreen(),
       },
       theme: AppTheme.lightetheme,
       themeMode: ThemeMode.light,
