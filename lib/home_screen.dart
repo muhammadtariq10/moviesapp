@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:movies/bottomnavigationbar/browes_tap.dart';
-import 'package:movies/bottomnavigationbar/home_tap.dart';
+import 'package:movies/bottomnavigationbar/home/home_tap.dart';
 import 'package:movies/bottomnavigationbar/search_tap.dart';
 import 'package:movies/bottomnavigationbar/watch_list_tap.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
-  static const String routeName = '/';
+  static const String routeName = 'home';
 
   @override
   State<HomeScreen> createState() => _HomeScreenState();
