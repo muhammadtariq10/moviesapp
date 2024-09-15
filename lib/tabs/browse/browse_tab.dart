@@ -21,18 +21,18 @@ class BrowseTab extends StatelessWidget {
   Widget build(BuildContext context) {
     return SafeArea(
       child: Container(
-        padding: EdgeInsets.only(top: 50, left: 20, right: 30),
+        padding: const EdgeInsets.only(top: 50, left: 20, right: 30),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: <Widget>[
             Text('Browse Category ',
                 style: Theme.of(context).textTheme.titleLarge),
-            SizedBox(
+            const SizedBox(
               height: 16,
             ),
             Expanded(
               child: GridView.builder(
-                  gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+                  gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
                     crossAxisCount: 2,
                     crossAxisSpacing: 16.0,
                     mainAxisSpacing: 16.0,
@@ -42,7 +42,7 @@ class BrowseTab extends StatelessWidget {
                         onTap: () {
                           Navigator.of(context).push(
                             MaterialPageRoute(
-                              builder: (context) => DetailsOfMovie(),
+                              builder: (context) => const DetailsOfMovie(),
                             ),
                           );
                         },
