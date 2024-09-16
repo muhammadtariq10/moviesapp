@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:movies/bottomnavigationbar/browes_tap.dart';
+import 'package:movies/bottomnavigationbar/browse/browes_tap.dart';
 import 'package:movies/bottomnavigationbar/home/home_tap.dart';
 import 'package:movies/bottomnavigationbar/search_tap.dart';
 import 'package:movies/bottomnavigationbar/watch_list_tap.dart';
@@ -14,10 +14,10 @@ class HomeScreen extends StatefulWidget {
 
 class _HomeScreenState extends State<HomeScreen> {
   int currentIndex = 0;
-  List<Widget> taps = const [
+  List<Widget> taps = [
     HomeTap(),
     SearchTap(),
-    BrowesTap(),
+    BrowseTab(),
     WatchListTap(),
   ];
   @override

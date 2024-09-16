@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
-import '../category/category_grid.dart';
-import '../category/category_model.dart';
 import 'details_of_movie.dart';
+import '../../tabs/category/category_grid.dart';
+import '../../tabs/category/category_model.dart';
 
 class BrowseTab extends StatelessWidget {
   BrowseTab({super.key});
