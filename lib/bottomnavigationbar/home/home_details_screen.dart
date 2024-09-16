@@ -41,7 +41,7 @@ class HomeDetailsScreen extends StatelessWidget {
                 Row(
                   children: [
                     Image.asset(
-                      'assets/images/imagetesting.png',
+                      'assets/images/background.png',
                       fit: BoxFit.fill,
                       height: MediaQuery.of(context).size.height * 0.22,
                     ),
@@ -106,7 +106,7 @@ class HomeDetailsScreen extends StatelessWidget {
               itemBuilder: (_, index) => const MovieCard(
                 title: 'Deadpool 2',
                 rating: 7.7,
-                imageName: 'assets/images/imagetesting.png',
+                imageName: 'assets/images/Image.png',
               ),
               itemCount: 10,
             ),
